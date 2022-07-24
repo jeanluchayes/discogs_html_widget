@@ -1,0 +1,80 @@
+<!-- #Original Author Here: https://gist.github.com/dreeeeewwwww/8849d2e0b7c42cfab284 -->
+
+<!-- Edited by Jean-Luc Hayes - 7/24/2022 -->
+
+<link rel="stylesheet" href="styles.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+
+<script type="text/javascript"src="connect.js"> </script>
+
+
+
+<!-- <h1>Discogs HTML Widget</h1> -->
+
+
+
+<body>
+    <picture><img id="discogs_album_art" alt="Current Album Art"></picture>
+
+    <h1 class="discogs_album_title"></h1>
+    <div class="discogs_album_info">
+      <table class="discogs_album_info_table">
+        <tbody>
+          <tr>
+            <th scope="row">Label<!-- -->:</th>
+            <td class="discogs_album_label"></td>
+          </tr>
+          <tr>
+            <th scope="row">Format<!-- -->:</th>
+            <td>
+              <div class="discogs_album_format">
+                <a class="discogs_album_format_href"></a>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Country<!-- -->:</th>
+            <td>
+              <a class="discogs_album_country"></a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Released<!-- -->:</th>
+            <td>
+              <a class="discogs_album_release_date"><time></time></a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Genre<!-- -->:</th>
+            <td>
+              <a class="discogs_album_genre"></a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Style<!-- -->:</th>
+            <td>
+              <a class="discogs_album_style"></a></a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <table class="discogs_tracklist">
+      <thead class="discogs_tracklist_headers">
+        <tr>
+          <th>Track Position</th>
+          <th>Track Title</th>
+        </tr>
+      </thead>
+      <tbody id="discogs_tracklist_body">
+        <tr class="discogs-loading">
+          <td>Loading ...</td>
+        </tr>
+      </tbody>
+    </table>
+</body>
+
+
+<!-- <iframe style="border: 0; width: 600px; height: 600px;" src="https://bandcamp.com/EmbeddedPlayer/album=2448867930/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/" seamless><a href="http://mypetflamingo.bandcamp.com/album/toyamas-love-island">Toyama&#39;s Love Island by Skule Toyama</a></iframe> -->

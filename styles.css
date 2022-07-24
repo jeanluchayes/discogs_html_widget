@@ -1,0 +1,77 @@
+html * {
+    font-family: 'Helvetica';
+    /* color: #000000; */
+    font-size: 12pt;
+    background-color: #FAFAFA;
+}
+
+
+.discogs_albums {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+#discogs_album_art {
+    height: 250px;
+    width: 250px;
+    float:left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.discogs_tracklist {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.discogs_tracklist_data {
+    border: solid grey;
+    border-width: 1px 0px;
+}
+
+.discogs_tracklist_data>td {
+  padding: 5px;
+}
+
+.discogs_tracklist_body {
+    /* display: block; */
+    margin: 10px;
+    /* border: 10px solid #f1f1f1; */
+    /* border-right: 0px; */
+    /* border-left: 0px; */
+    margin: 0px 2.86%;
+    height: 335px;
+}
+
+.discogs_tracklist_headers {
+    text-align: left;
+    width: max-content;
+}
+
+.discogs_album_title {
+    line-height: 2em;
+    font-weight: bold;
+    margin: 6px 0 0;
+    font-size: 15px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}

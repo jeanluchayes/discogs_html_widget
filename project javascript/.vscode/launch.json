@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Discogs Widget"
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch my cool app",
+      "file": "${workspaceFolder}/discogs_html.html"
+    }
+  ]
+}

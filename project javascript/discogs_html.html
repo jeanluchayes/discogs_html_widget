@@ -1,0 +1,62 @@
+<!-- #Original Author Here: https://gist.github.com/dreeeeewwwww/8849d2e0b7c42cfab284 -->
+
+<!-- Edited by Jean-Luc Hayes - 12/07/2020 -->
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function()
+{
+    //$("#myid").addClass("highlight");
+    $(".discogs-loading").show();
+    $.getJSON("https://api.discogs.com/users/jeanluchayes/collection/folders/0/releases?&sort=added&sort_order=desc&per_page=1000&format=js&key=lkAgTInocxZZfKsTSasn&secret=tcBYdskqALSsLDENnoBBRxXtJWCgwboj&callback=", function(data)
+    {  
+    $(".discogs-loading").hide();
+    if (data.pagination.items > 1) {
+      $.each(data.releases, function(i,release){
+        content = '<tr class="discogs-table"><td>'+release.basic_information.artists[0].name+'</td><td class="discogs-link" href="http://www.discogs.com/release/'+release.basic_information.id+'"><a href="http://www.discogs.com/release/'+release.basic_information.id+'">'+release.basic_information.title+'</a></td><td>'+release.basic_information.labels[0].name+'</td><td>'+release.basic_information.formats[0].name+'</td><td>'+release.basic_information.year+'</td></tr>';
+        $(content).appendTo("#discogs-collection");
+      });
+      //$(".discogs-link").click(function() {
+      //  window.open($(this).data("href"));
+      //});
+    }
+    else{
+      $("#discogs-collection").append("<tr class='discogs-error'><td>Error! Something is up with the Discogs API.</td></tr>");
+    }
+
+    //console.log(data);
+  });
+});
+</script>
+
+<style>
+.selected { 
+    color:red; 
+}
+.highlight { 
+    background:yellow; 
+}
+</style>
+
+
+<h1>My Discogs Collection</h1>
+<table>
+  <thead>
+    <tr>
+      <!-- <th>Album Link</th> -->
+      <th>Album Artist</th>
+      <th>Album Title</th>
+      <th>Album Label</th>
+      <th>Media Format</th>
+      <th>Album Release Year</th>
+    </tr>
+  </thead>
+  <tbody id="discogs-collection">
+    <tr class="discogs-loading">
+      <td>Loading ...</td>
+    </tr>
+  </tbody>
+</table>

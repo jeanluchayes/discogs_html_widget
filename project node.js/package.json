@@ -1,0 +1,14 @@
+{
+    "name": "discogs-release-html-widget",
+    "description": "Working on Discogs Application that can make HTML Widgets of a Discogs Release, kind of like how Bandcamp does it.",
+    "version": "1.0.0",
+    "keywords": [],
+    "author": "Jean-Luc Hayes",
+    "license": "BSD-3-Clause",
+    "dependencies": {
+        "axios": "^0.27.2",
+        "cors": "^2.8.5",
+        "disconnect": "^1.2.2",
+        "express": "^4.18.1"
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Discogs Widget",
+      "type": "chrome",
+      "request": "launch",
+      "file": "${workspaceFolder}/discogs_album_embed.html?release=13930194"
+      //"url": "http://localhost:8080"
+    }
+  ]
+}
