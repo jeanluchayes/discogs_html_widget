@@ -1,1 +1,1 @@
-<iframe style="border: 0; width: 600px; height: 600px;" src="https://www.jeanluckhayes.com/EmbeddedDiscogsViewer/discogs_album_embed.html?release=13930194"</iframe>
+<iframe style="border: 0; width: 600px; height: 600px;" src="https://www.jeanluckhayes.com/EmbeddedDiscogsViewer/discogs_album_embed.html?release=13930194" seamless></iframe>

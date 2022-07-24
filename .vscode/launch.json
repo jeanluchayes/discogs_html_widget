@@ -6,6 +6,7 @@
       "type": "chrome",
       "request": "launch",
       "file": "${workspaceFolder}/discogs_album_embed.html?release=13930194"
+      //"file": "${workspaceFolder}/discogs_multiple_test.html"
       //"url": "http://localhost:8080"
     }
   ]

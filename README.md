@@ -14,7 +14,7 @@ Bandcamp Embed Example:
 
 Discogs Embed Example:
 
-<iframe style="border: 0; width: 600px; height: 400px;" src="https://www.jeanluckhayes.com/EmbeddedDiscogsViewer/discogs_album_embed.html?release=13930194"</iframe>
+<iframe style="border: 0; width: 1200px; height: 600px;" src="https://www.jeanluckhayes.com/EmbeddedDiscogsViewer/discogs_album_embed.html?release=13930194" seamless></iframe>
 
 You can put the above on your website and replace the "release=***" with the specific discogs release you want.
 
