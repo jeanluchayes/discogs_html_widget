@@ -2,7 +2,11 @@
 
 Working Version of Simple Discogs Album Embed.
 
+What the HTML Looks like:
 ![alt text](https://www.jeanluckhayes.com/EmbeddedDiscogsViewer/Discogs%20Embed%20Example%20Picture.png)
+
+What the Widget Looks like on a Website (White Background)
+![alt text](https://www.jeanluckhayes.com/EmbeddedDiscogsViewer/Discogs%20Embed%20Example%20Site%20Picture.png)
 
 # Examples
 example embed.txt shows how to embed this, as I uploaded the html to my Web Server Already.
