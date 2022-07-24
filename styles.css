@@ -24,9 +24,9 @@ html * {
 }
 
 .discogs_tracklist {
-    /* width: 100%; */
+    width: 100%;
     margin-top: 20px;
-    width: max-content;
+    /* width: max-content; */
     border-collapse: collapse;
 
 }
