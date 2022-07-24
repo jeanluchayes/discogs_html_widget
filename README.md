@@ -1,6 +1,8 @@
 # Discogs Html Widget
 Working Version of Simple Discogs Album Embed.
 
+![alt text](https://www.jeanluckhayes.com/EmbeddedDiscogsViewer/Discogs%20Embed%20Example%20Picture.png)
+
 example embed.txt shows how to embed this, as I uploaded the html to my Web Server Already.
 
 Embeds one album, like the bandcamp embeded player, which is what I wanted to "replicate".
