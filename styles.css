@@ -16,15 +16,17 @@ html * {
 }
 
 #discogs_album_art {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     float:left;
     margin-right: 20px;
     margin-bottom: 10px;
 }
 
 .discogs_tracklist {
-    width: 100%;
+    /* width: 100%; */
+    margin-top: 20px;
+    width: max-content;
     border-collapse: collapse;
 
 }
@@ -51,7 +53,12 @@ html * {
 .discogs_tracklist_headers {
     text-align: left;
     width: max-content;
+    /* margin-right: 50px; */
 }
+
+/* .discogs_tracklist_header_1{
+   margin-right: 50px;
+} */
 
 .discogs_album_title {
     line-height: 2em;

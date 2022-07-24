@@ -10,11 +10,14 @@
 
 
 
-<!-- <h1>Discogs HTML Widget</h1> -->
 
 
 
-<body>
+<html>
+  <head>
+    <!-- <title> <h1>Discogs HTML Widget</h1> </title> -->
+  </head>
+  <body>
     <picture><img id="discogs_album_art" alt="Current Album Art"></picture>
 
     <h1 class="discogs_album_title"></h1>
@@ -64,8 +67,8 @@
     <table class="discogs_tracklist">
       <thead class="discogs_tracklist_headers">
         <tr>
-          <th>Track Position</th>
-          <th>Track Title</th>
+          <th class="discogs_tracklist_header_1"> Tracklist </th>
+          <!-- <th class="discogs_tracklist_header_2">Track Title</th> -->
         </tr>
       </thead>
       <tbody id="discogs_tracklist_body">
@@ -74,7 +77,8 @@
         </tr>
       </tbody>
     </table>
-</body>
+  </body>
+</html>
 
 
 <!-- <iframe style="border: 0; width: 600px; height: 600px;" src="https://bandcamp.com/EmbeddedPlayer/album=2448867930/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/" seamless><a href="http://mypetflamingo.bandcamp.com/album/toyamas-love-island">Toyama&#39;s Love Island by Skule Toyama</a></iframe> -->

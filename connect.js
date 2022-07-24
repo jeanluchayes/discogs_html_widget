@@ -98,8 +98,9 @@ var getUrlParameter = function getUrlParameter(sParam) {
       
       //Getting the Album Tracklist
       $.each(data.tracklist, function(i, track){
-        content_album_tracklist = '<tr class="discogs_tracklist_data"><td style="width: max-content">' + track.position + '</td>'+
-          '<td style="width: max-content">' + track.title + '</td>';
+        content_album_tracklist = '<tr class="discogs_tracklist_data"><td>' + track.position + '</td>'+
+        //style="width: max-content
+          '<td>' + track.title + '</td>';
           $(content_album_tracklist).appendTo("#discogs_tracklist_body");
           //console.log(data.tracklist);
       });
